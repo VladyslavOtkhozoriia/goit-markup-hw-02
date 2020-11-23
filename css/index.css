@@ -1,0 +1,195 @@
+
+a {
+    text-decoration: none;  
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Components */
+
+
+/* PAGE_COLOR */
+
+:root {
+  --accent-color: #2196f3;
+  --white-color: #FFFFFF;
+  --black-color:#212121;
+  --gray-color:#757575;
+}
+
+/* LOGO */
+.header_logo {
+font-family:'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: var(--black-color);
+}
+
+.footer_logo{
+font-family:'Raleway', sans-serif;
+font-style: normal;
+ font-weight:  400;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+/* color:var(--white-color); */
+ } 
+
+
+.logo_part_color {
+    color: var(--accent-color);
+}
+
+/* Components-END */
+
+
+/* HEADER */
+
+.navigation_menu_item_link {
+
+    font-family: 'Roboto', sans-serif;
+    /* font-style: normal; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--black-color);
+   }
+
+   .navigation_menu_item_link:hover,
+   .navigation_menu_item_link:focus,
+   .address_menu_item_link:hover,
+   .address_menu_item_link:focus{
+    color: var(--accent-color);
+   }
+
+   .address_menu_item_link {
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
+  }
+
+  /* HEADER-END */
+
+
+  /* MAIN */
+
+  .hero_title {
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: var(--white-color); */
+  }
+
+  .hero-btn {
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+        /* color:var(--white-color); */
+  }
+
+  .advantages_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--black-color);
+  }
+
+  .advantages_text{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:  400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+  }
+
+
+  .main_title{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+  }
+
+
+ .our_team_list_name{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+ }
+
+
+
+ .our_team_list_name_specialty{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:  400;
+    font-size: 16px;
+    line-height: 1.188;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+ }
+
+ /* MAIN-END */
+
+
+ /* FOOTER */
+
+.address_footer_item_links_kiev{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:  400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    /* color: var(--white-color); */
+}
+
+ .address_footer_item_links{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight:  400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    /* color: rgba(255, 255, 255, 0.6); */
+ }
+
+ /* FOOTER-END */

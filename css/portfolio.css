@@ -1,0 +1,146 @@
+a {
+text-decoration: none;  
+}
+
+ul {
+list-style: none;
+}
+/* Components */
+
+
+/* PAGE_COLOR */
+
+:root {
+--accent-color: #2196f3;
+--white-color: #FFFFFF;
+--black-color:#212121;
+--gray-color:#757575;
+}
+  
+  /* LOGO */
+.header_logo {
+font-family:'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: var(--black-color);
+}
+  
+.footer_logo{
+font-family:'Raleway', sans-serif;
+font-style: normal;
+font-weight:  400;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+/* color:var(--white-color); */
+} 
+  
+  
+.logo_part_color {
+color: var(--accent-color);
+}
+  
+.web-sites_undertitle {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--black-color);
+}
+
+.web-sites_text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--gray-color);
+}
+
+/* Components-END */
+
+/* HEADER */
+
+.navigation_menu_item_link {
+font-family: 'Roboto', sans-serif;
+/* font-style: normal; */
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: var(--black-color);
+}
+
+.navigation_menu_item_link:hover,
+.navigation_menu_item_link:focus,
+.address_menu_item_link:hover,
+.address_menu_item_link:focus{
+color: var(--accent-color);
+}
+
+.address_menu_item_link {
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: var(--gray-color);
+}
+
+/* HEADER-END */
+
+
+/* MAIN */
+
+.btn_text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--black-color); 
+}
+
+
+.btn_text:hover,
+.btn_text:focus{
+color: var(--white-color);
+background-color: var(--accent-color);
+}
+
+
+
+/* MAIN-END */
+  
+/* FOOTER */
+
+.address_footer_item_links_kiev{
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight:  400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/* color: var(--white-color); */
+}
+
+.address_footer_item_links{
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight:  400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/* color: rgba(255, 255, 255, 0.6); */
+}
+
+/* FOOTER-END */
